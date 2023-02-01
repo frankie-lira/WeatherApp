@@ -76,6 +76,7 @@
 		C21D35F8298A2FF50096ACC6 = {
 			isa = PBXGroup;
 			children = (
+				C21D3631298A63210096ACC6 /* Views */,
 				C21D362E298A5CDF0096ACC6 /* Managers */,
 				C21D3603298A2FF50096ACC6 /* Weather */,
 				C21D3614298A2FF70096ACC6 /* WeatherTests */,
@@ -98,7 +99,6 @@
 			isa = PBXGroup;
 			children = (
 				C21D3604298A2FF50096ACC6 /* WeatherApp.swift */,
-				C21D3606298A2FF50096ACC6 /* ContentView.swift */,
 				C21D3608298A2FF70096ACC6 /* Assets.xcassets */,
 				C21D360A298A2FF70096ACC6 /* Preview Content */,
 			);
@@ -136,6 +136,14 @@
 				C21D362F298A5D0A0096ACC6 /* LocationManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		C21D3631298A63210096ACC6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C21D3606298A2FF50096ACC6 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
