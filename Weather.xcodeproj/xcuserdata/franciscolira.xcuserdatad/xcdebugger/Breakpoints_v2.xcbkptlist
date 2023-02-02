@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "923CF87E-1101-4135-9667-AE4F2C8671A4"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7EF14B96-7E76-4993-919B-EB1F8BAD5DC3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Managers/WeatherManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "getCurrentWeather(latitude:longitude:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7EF14B96-7E76-4993-919B-EB1F8BAD5DC3 - 64d315e347571756"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Weather.WeatherManager.getCurrentWeather(latitude: Swift.Double, longitude: Swift.Double) async throws -&gt; Weather.ResponseBody"
+                  moduleName = "Weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/franciscolira/Desktop/iOS_Projects/WeatherApp/Managers/WeatherManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "2356">
+               </Location>
+               <Location
+                  uuid = "7EF14B96-7E76-4993-919B-EB1F8BAD5DC3 - 19716667561f117"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Weather.WeatherManager.getCurrentWeather(latitude: Swift.Double, longitude: Swift.Double) async throws -&gt; Weather.ResponseBody"
+                  moduleName = "Weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/franciscolira/Desktop/iOS_Projects/WeatherApp/Managers/WeatherManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "252">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
