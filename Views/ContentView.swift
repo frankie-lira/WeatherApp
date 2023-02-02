@@ -13,12 +13,22 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            
+            if let location = locationManager.location{ //made an if because location is optional for the use rto share
+                Text("Your coordinates are: \(location.longitude), \(location.latitude)")
+            }
+            else{
+                if locationManager.isLoading{
+                    ProgressView()
+                }
+                else{
+                    WelcomeView().environmentObject(locationManager)
+                }
+            }
         }
         .padding()
+        .background(Color(hue: 0.679, saturation: 0.966, brightness: 0.381))
+        .preferredColorScheme(.dark)
     }
 }
 
