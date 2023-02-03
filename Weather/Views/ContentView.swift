@@ -20,9 +20,9 @@ struct ContentView: View {
 //                Text("Your coordinates are: \(location.longitude), \(location.latitude)")
                 
                 if let weather = weather{
-                    Text("Weather data fetched!")
-                }
-                else{
+//                    Text("Weather data fetched!")
+                    WeatherView(weather: weather)
+                } else{
                     LoadingView()
                         .task {
                             do{
